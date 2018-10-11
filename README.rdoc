@@ -2,7 +2,7 @@ This is a HTTP/HTTPS service that, given latitude and longitude of an object, it
 
 ## Installation
 
-1)  clone the repository using git clone ...`
+1) clone the repository using git clone 
 2) bundle install
 3) rake db:setup
 4) rails s
