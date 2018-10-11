@@ -1,28 +1,16 @@
-== README
+This is a HTTP/HTTPS service that, given latitude and longitude of an object, its type and marketing type, returns a list of similar objects with their prices.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Installation
 
-Things you may want to cover:
+1)  clone the repository using git clone ...`
+2) bundle install
+3) rake db:setup
+4) rails s
 
-* Ruby version
+##HTTP Endpoint
 
-* System dependencies
+http://localhost:3000?lng=13.4236807&lat=52.5342963&property_type=apartment&marketing_type=sell
 
-* Configuration
+##Run Test Cases
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+rspec spec
