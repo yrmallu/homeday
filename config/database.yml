@@ -19,9 +19,9 @@ development:
   encoding: unicode
   database: homeday1_dev
   pool: 5
-  username: kloopz 
-  password: kloopz 
-  host: <%= ENV['OODB_HOST'] || 'kloopzappdb' %>
+  username:  
+  password:  
+  host: <%= ENV['OODB_HOST'] || 'localhost' %>
   port: 5432
 
 test:
@@ -29,7 +29,7 @@ test:
   encoding: unicode
   database: homeday1_test
   pool: 5
-  username: kloopz
-  password: kloopz
+  username: 
+  password: 
   host: <%= ENV['OODB_HOST'] || 'localhost' %>
   port: 5432
